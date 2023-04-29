@@ -1,0 +1,134 @@
+*{
+  margin: 0;
+}
+html {
+    background-color: #000000;
+    color: #F0E3CA;
+    font-family: 'Lato';
+  }
+.cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+  }
+.logo{
+    width: 500px;
+  }  
+.head{
+  font-family: 'Kalam', cursive;
+  font-size: 2.5rem;
+  text-align: center;
+  padding: 0 5%;
+  background-color: #A35709;
+}
+.back{
+  position: relative;
+  z-index: -1;
+  top:0;
+}
+.interior{
+  height:600px;
+  width:100%;
+  display: block;
+}
+.habout{
+  font-size: 2rem;
+  text-align: center;
+  padding: 10px;
+  background-color: #FF8303;
+}
+@media (max-width:1000px){
+  .about{
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+  }
+  .about>div{
+    min-width: 600px;
+  }
+  
+}
+.about{
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  text-align: center;
+  min-width: 200px;
+}
+
+.about>div{
+font-size: 2rem;
+width: 15%;
+margin: 50px 0;
+background-color:#FF8303;
+padding: 20px;
+border-radius: 10px;
+}
+.pheader{
+  background-color: #A35709;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  font-family: 'Kalam', cursive;
+}
+.hmenu{
+  font-size: 2rem;
+  text-align: center;
+  padding: 10px;
+  background-color: #FF8303;
+}
+.cmenu{
+  display: flex;
+  justify-content: space-around;
+  align-items:flex-start;
+  text-align: center;
+  margin: 50px 0;
+  flex-wrap: wrap;
+}
+.n{
+  font-size: 2rem;
+  background-color:#FF8303;
+  font-family: 'Kalam', cursive;
+}
+.emenu{
+  margin-bottom: 20px;
+}
+.emenu>img{
+  height: 400px;
+  width: 400px;
+  display: block;
+}
+.hcontact{
+  font-size: 2rem;
+  text-align: center;
+  padding: 10px;
+  background-color: #FF8303;
+}
+.contact{
+  text-align: center;
+  background-color: #F0E3CA;
+  display: flex;
+  justify-content: space-around;
+  color: #000000;
+  font-size: 1.5rem;
+  padding:20px 0;
+  align-items: center;
+}
+.inf{
+  float: left;
+}
+.sn{
+  float: right;
+  text-align: center;
+  width: 40%;
+}
+.sn img{
+  width: 100px;
+  margin: 10px;
+}
+footer{
+  text-align: center;
+  padding: 10px;
+}
+
